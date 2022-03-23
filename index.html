@@ -1,58 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
-</head>
+
+</head>	
+
 <body>
-<center><h1 style="color: red;color: lightgray;font-family: 'Lato';">ICS20</h1></center>
-<body style="background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Desktop-Best-And-Website-background-2560x1600.jpg);">
-<a href="example.html">Click to go to the new page</a>
-<!--the link is for practice-->
-<body style="background-color: lightblue;">
-<center><p><b>hello</b></p></center>
-<a href="example.html">New page</a>
- <link rel="style.css" rel="stylesheet">
-<p style="font-size:500%;color: lightblue;"><i>hello</i></p>
-<h1 style="text-align: right;">hello</h1>
-<h2>hello</h2>
-<h3 style="color: rgba(170, 32, 161);">hello</h3>
-<h4>hello</h4>
-<h5>hello</h5>
-<h6>hello</h6>
-<h1>123</h1>
-<table>
-	<tr>
-		<th>Name</th>
-		<th>Age</th>
-		<th>Gender</th>
-	</tr>
-	<tr>
-		<td>Tony</td>
-		<td>15</td>
-		<td>M</td>
-	</tr>
-	<tr>
-		<td>Mary</td>
-		<td>16</td>
-		<td>F</td>
-	</tr>
-</table>
-<mark>This is a mark</mark>
-<del>This is delete</del>
-<sub>3</sub>
-<sup>3</sup>
-<ins>insert</ins>
-<b>This is bold</b>
-<i>this is italic</i>
-<strong>this is bold</strong>
-<em>This is bold</em>
-<a href="https://www.google.ca/"><img src='https://img.zcool.cn/community/01a1f05b78e1e9a801218d3275a8b1.jpg@1280w_1l_2o_100sh.jpg' height='150px' width='250px'></a>
-<hr>
-<img src='https://img.zcool.cn/community/01a1f05b78e1e9a801218d3275a8b1.jpg@1280w_1l_2o_100sh.jpg' height='150px' width='250px'>
-<iframe width="1217" height="685" src="https://www.youtube.com/embed/myciX5_b1QY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="1000px" height="700px" src='https://www.bilibili.com/'></iframe>
-<img src="1.jpg">
+<style>
+	body{
+		background-image: url(https://www.solidbackgrounds.com/images/2560x1600/2560x1600-terra-cotta-solid-color-background.jpg);
+		background-repeat: no-repeat;
+		background-position: top right;
+		background-attachment: fixed;
+		background-size: unset;
+	}
+</style>
+<link href="Festival.css" rel="stylesheet">
+<center><h1 class="one">Famous festivals around the world&#128218</h1></center>
+
+<p class="sbw">This web page introduces the three famous festivals in the world, people can have a good understanding of their culture and learn knowledge from it, the main purpose of this website is to publicize the importance of festivals has been to publicize its culture to the world. All kinds of people around the world are welcome to click in to learn and feel the global culture. Click on the button in the lower left for details&#128221&#128227</p>
+<img src="https://cdn-icons.flaticon.com/png/512/2671/premium/2671277.png?token=exp=1646279369~hmac=1c0de9b9cb7cdaf12b79716fc964f895" width="500px" height="600px">
+<img src="http://attc.com.cy/wp-content/uploads/2017/05/JNTU-EXPRESS-Welcome-1024x576.jpg" width="500px" height="600px">
+<img src="https://cdn-icons.flaticon.com/png/512/2108/premium/2108382.png?token=exp=1646279558~hmac=9fe25357e8b1b3f14c39b4df24167a80" width="500px" height="600px">
+	<style>
+		.column{
+			float: left;
+			width: 33.3%;
+		}
+		.row{
+			margin-left: 300px;
+		}
+	</style>
+	<link rel="stylesheet"  href="Festival.css">
+</head>
+      
+<body>
+<style>
+	ul{
+		margin-left: -40px;
+		margin-top: -5px;
+	}
+	a{
+		text-decoration: none;
+		background-color: black;
+		color: white;
+		margin-left: -4px;
+		padding: 10px;
+	}
+	a:hover{
+		background-color: red;
+	}
+</style>
+<center><h1 id="ct">Questionnaire survey </h1></center>
+	<form><center>
+		<label for="name">Name:</label>
+		<input type="text" name="name"><br>
+		<label for="birthday">Date of birth:</label>
+		<input type="date" name="birthday"><br>
+		<label for="gender">Gender:</label>
+		<select name="gender">
+			<option name="Male">Male</option>
+			<option name="Female">Female</option>
+			<option name="Unknown">Unknown</option>
+		</select><br>
+		<label for="time">Time of born</label>
+        <input type="time" name="name">
+        </select><br>
+        <label for="Private car">Private car</label>
+        <input type="number" name="number" min="0" max="5"><br>
+        </select><br>
+        <label for="Education background ">Education background :</label>
+		<select name="Education background ">
+			<option name="Primary school">Primary school</option>
+			<option name="High school">High school</option>
+			<option name="University">University</option>
+			<option name="Others">Others</option>
+		</select><br>
+		<label for="Culture">Fav Culture:</label>
+		<input type="checkbox" name="Chinese">
+		<label for="Chinese">Chinese</label>
+		<input type="checkbox" name="Indian">
+		<label for="Indian">Indian</label>
+		<input type="checkbox" name="Japanese">
+		<label for="Japanese">Japanese</label>
+		<input type="checkbox" name="Caribbean">
+		<label for="Caribbean">Caribbean</label>
+		<input type="checkbox" name="North American">
+		<label for="North American ">North American </label>
+		<input type="checkbox" name="Others">
+		<label for="Others">Others</label>
+		</select><br>
+		<label for="Flavour">Flavour:</labe>
+		<label for="sports">Sports:</label>
+		<input type="checkbox" name="basketball">
+		<label for="basketball">basketball</label>
+		<input type="checkbox" name="soccer">
+		<label for="soccer">soccer</label>
+		<input type="checkbox" name="tennis">
+		<label for="tennis">Tennis</label>
+		<input type="checkbox" name="golf">
+		<label for="gold">Golf</label>
+		<input type="checkbox" name="Others">
+		<textarea name="message" rows="1" cols="6"></textarea>
+		</select><br>
+		<label for="marriage">Marriage:</label>
+		<input type="radio" name="married">
+		<label for="married">Married</label>	
+        <input type="radio" name="marriage">
+        <label for="single">Single</label>
+        </select><br>
+        <label for="color">Fav color:</label>
+        <input type="color" name="color">
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <label for="Phone number">Phone number:</label>
+        <input type="Phone number" name="Phone number">
+        <label for="Opinion">Opinion:</label>
+        <input type="file" name="file">
+        </select><br>
+        <input type="submit">
+	</form></center>
+<ul>
+	<a href="index.html">Home page&#128527</a>
+	<a href="Chinese New Year.html">Chinese New Year&#128519</a>
+	<a href="Christmas.html">Christmas &#128525</a>
+	<a href="Thanksgiving Day.html">Thanksgiving Day&#128521</a>
+	<a href="Updating.html">Updating&#128517</a>
+</ul>
 </body>
 </html>
